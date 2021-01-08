@@ -1,0 +1,23 @@
+<?php 
+$comidas[] = array(
+	'restaurant' => $extraidocarrito['restaurant'],
+	'comida' => $extraidocarrito['comida']);
+
+$i = 0;
+														foreach ($comidas as $extraidocarrito){
+															$i++;
+																echo'Pedido ' . $i . ' : ' . $extraidocarrito['restaurant'].' - Plato: '.$extraidocarrito['comida'];
+												}
+												echo 'Comidas: ' . $i;
+ ?>
+
+<?php 
+$id_comidas[] = array(
+	'id' => $extraidocarrito['id']);
+
+$i = 0;
+	foreach ($id_comidas as $extraidocarrito){
+		$i++;
+			echo 'Orden #: ' . $i . ' : ' . $extraidocarrito['id'];
+		}
+ ?>
